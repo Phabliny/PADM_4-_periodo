@@ -1,34 +1,34 @@
 const itemList = [
         {
-            imagem: "./src/img/01-tablelamps.png".uri,
+            imagem: require("./src/img/01-tablelamps.png"),
             descricao: "Abajur"
-        },
+         },
         {
-            imagem: "./src/img/02-ceilinglamps.png".uri,
+            imagem: require("./src/img/02-ceilinglamps.png"),
             descricao: "Lâmpada de teto"
         },
         {
-            imagem: "./src/img/03-sconces.png".uri,
+            imagem: require("./src/img/03-sconces.png"),
             descricao: "Arendela"
         },
         {
-            imagem: "./src/img/04-floorlamps.png".uri,
+            imagem: require("./src/img/04-floorlamps.png"),
             descricao: "Luminária de chão"
         },
         {
-            imagem: "./src/img/05-ligthdecor.png".uri,
+            imagem: require("./src/img/05-lightdecor.png"),
             descricao: "Luminária 5"
         },
         {
-            imagem: "./src/img/06-garlands.png".uri,
+            imagem: require("./src/img/06-garlands.png"),
             descricao: "Luminária 6"
         },
         {
-            imagem: "./src/img/bgimage.png".uri,
+            imagem: require("./src/img/bgimage.png"),
             descricao: "Luminária 7"
         },
         {
-            imagem: "./src/img/detalhes-table-lamp.png".uri,
+            imagem: require("./src/img/detalhes-table-lamp.png"),
             descricao: "Luminária 8"
         }
     ]

@@ -4,7 +4,7 @@ import Imagens from './Imagens';
 
 export default function Body() {
   return (
-    <View >
+    <View style={styles.container}>
         <Categorias/>
         <Imagens/>
     </View>
@@ -12,5 +12,7 @@ export default function Body() {
 }
 
 const styles = StyleSheet.create({
-
+  container: {
+    marginBottom: 155
+  }
 });

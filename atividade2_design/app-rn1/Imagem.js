@@ -7,7 +7,7 @@ export default function Imagem({posicao}) {
   return (
     <View style={styles.container}>
         <View style={styles.div}>
-            <Image style={styles.imagem} source={require("./src/img/01-tablelamps.png")}/>
+            <Image style={styles.imagem} source={data.imagem}/>
             <Text style={styles.descricao}>{data.descricao}</Text>
         </View>
 
@@ -18,7 +18,7 @@ export default function Imagem({posicao}) {
 const styles = StyleSheet.create({
     div: {
         backgroundColor: 'white',
-        width:180,
+        width: 160,
         height: 240,
         borderRadius: 20,
         flexWrap: 'wrap',
@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
     },
     descricao: {
         marginTop: 25,
-        fontSize: 15, 
+        fontSize: 15
     }
 });
