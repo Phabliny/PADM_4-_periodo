@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Head from './Head'
-import Body from './Body'
+import Head from './src/components/Head'
+import Body from './src/components/Body'
 
 export default function App() {
   return (
